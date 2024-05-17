@@ -21,11 +21,11 @@ function creatCard(UId, IDFun, UTitle, UBody){
     let TitleContent = document.createTextNode('Title: ' + UTitle);
     let bodyContent = document.createTextNode('body: ' + UBody);
 
-    card.style.width= '250px'
-    card.style.background= 'gray'
-    card.style.padding= '10px'
-    card.style.margin= '10px'
-    card.style.display= 'inline-block'
+    card.style.width= '250px';
+    card.style.background= 'gray';
+    card.style.padding= '10px';
+    card.style.margin= '10px';
+    card.style.display= 'inline-block';
 
     //Append
     userId.appendChild(userIdContent);
